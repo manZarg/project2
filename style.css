@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0 150px;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+ul li {
+	float: none;
+	display: inline-block;
+}
+ul li a {
+	color: #505050;
+	text-decoration: none;
+	display: block;
+	padding: 0;
+}
+ul li a:hover {
+	color: #000;
+	text-decoration: none;
+	transform: translateY(-3px);
+}
+.ul1 li a {
+	padding: 10px 0;
+	font-family: century gothic;
+}
+.ul2 li a{
+	font-family: candara;
+}
+.ul2 ul li:nth-child(1) {
+	float: left;
+	font-family: candara;
+}
+.ul2 ul li:nth-child(2) {
+	float: left;
+	font-family: candara;
+}
+.ul2 ul li:nth-child(3) {
+	float: left;
+	font-family: candara;
+}
+.ul2 ul li:nth-child(4) {
+	float: left;
+	font-family: candara;
+}
+.navbar {
+	width: 100%;
+	position: relative;
+	background-color: white;
+}
+.logo {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 45%;
+	margin-top: 12px;
+}
+.logo img {
+	width: 145px;
+	height: 85px;
+}
+img {
+	width: 28px;
+	height: 28px;
+	vertical-align: middle;
+}
+.container {
+	margin: 30px;
+	font-family: arial;
+}
+p {
+	font-size: 15px;
+}
+.d1 {
+	float: left;
+	margin: 30px 30px 30px 0;
+}
+.d2 {
+	float: left;
+	margin: 30px;
+}
+.d3 {
+	float: right;
+	margin: 30px 0 30px 30px;
+}
+.d4 {
+	float: left;
+	margin: 30px 50px 30px 0;
+}
+.d5 {
+	float: left;
+	margin: 30px;
+}
+.d6 {
+	float: right;
+	margin: 30px 0 30px 50px;
+}
+.guide td {
+	text-align: center;
+}
+span {
+	color: #505050;
+}
